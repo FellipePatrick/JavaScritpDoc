@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Exercice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <label for="kg">Peso em kg </label>
+        <input type="number" id="kg">
+        <label for="altura">Altura em m</label>
+        <input type="number" id="altura">
+        <button onclick="verifica()">enviar</button>
+        <button type="reset">Limpar</button>
+        <div style="display: flex; align-items: center;">
+            <p id="texto"></p>
+            <div id="quadrado" style="margin-left: 10px;"></div>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

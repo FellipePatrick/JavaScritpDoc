@@ -1,12 +1,11 @@
-function adicionaValor(valor) {
+const adicionaValor = (valor) => {
     document.getElementById('tela').value += valor;
 }
-
-function C() {
+const C = () => {
     document.getElementById('tela').value = '';
 }
 
-function resultado() {
+const resultado = () => {
     const tela = document.getElementById('tela').value;
     try {
         const resultado = eval(tela);
